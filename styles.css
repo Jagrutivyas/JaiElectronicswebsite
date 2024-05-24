@@ -53,7 +53,13 @@ footer {
     padding-bottom: 15px;
 }
 
-h1, h2 {
+h1{
+    font-family: 'Arial', sans-serif;
+	text-shadow: 2px 2px 4px #000000;
+	font-size: 50px;
+}
+
+h2{
     font-family: 'Arial', sans-serif;
 }
 
@@ -74,3 +80,61 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+img {
+    border: 1px solid #555;
+  }
+/* Navigation bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+#shop-info, #team-info {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+#contact-info {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+#contact-form {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+#location, #directions, #hours {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
